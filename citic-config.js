@@ -1,4 +1,4 @@
 module.exports = {
- 's-project': '<% s-project %>',
- 'piwik': '<% isPiwik %>' 
+ 's-project': '<%= SProjectName %>',
+ 'piwik': '<%= isPiwik %>' 
 }
