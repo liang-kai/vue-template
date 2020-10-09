@@ -1,11 +1,11 @@
 module.exports = [
   {
     type: 'input',
-    name: 's-project',
+    name: 'SProjectName',
     message: '输入S系统名称'
   },
   {
-    type: 'list',
+    type: 'input',
     name: 'isPiwik',
     message: '是否接入行为分析',
     choices: ['Y','N'],
