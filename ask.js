@@ -8,9 +8,9 @@ module.exports = [
     type: 'input',
     name: 'isPiwik',
     message: '是否接入行为分析',
-    choices: ['Y','N'],
-    when: function(answer){
-      return answer === 'Y' ? true : false
-    }
+    // choices: ['Y','N'],
+    // when: function(answer){
+    //   return answer === 'Y' ? true : false
+    // }
   }
 ]
